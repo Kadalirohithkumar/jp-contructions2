@@ -1,0 +1,1057 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  padding: 1rem 3rem;
+  max-width: 1920px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+nav a#logo {
+  color: #000000;
+  font-weight: 700;
+}
+
+nav ul a {
+  color: black;
+  font-weight: 600;
+}
+nav ul a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+section#home {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+h1 {
+  font-size: 4rem;
+}
+#ham-menu {
+  display: none;
+}
+nav ul.active {
+  left: 0;
+}
+
+
+
+
+/*-------------home--------------*/
+#home hr {
+  opacity: 0.2;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#home .home {
+  margin-top: 10%;
+  text-align: center;
+  color: #D0D3D4;
+}
+#home .home h1 {
+  font-size: 60px;
+  letter-spacing: 10px;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.logo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:whitesmoke;
+}
+.logo-heading{
+font-size: 20px;
+}
+.design-icons{
+  font-size: 60px;
+}
+#home .home .item {
+  margin-top: 1%;
+  text-align: left;
+  padding:15px;
+}
+
+#home .home .item a {
+  font-size: 20px;
+  color: #12B0BB;
+  opacity: 0.8;
+}
+
+#home .home .item .item_box {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#home .home .item p {
+  font-size: 17px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+
+#home .home .item .text {
+  margin-left: 20px;
+}
+
+#home .home .item img {
+  width: 100px;
+  height: 100px;
+}
+
+#home .home .item .item_box:hover {
+  background:rgba(250, 235, 215, 0.734);
+  transform: translateY(-10px);
+  color: black;
+}
+#home .home .item .item_box:hover a {
+  color: black;
+}
+
+#home .home .item .item_box:hover img {
+  background-color: #12B0BB;
+}
+.nav-social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+#home{
+  background-image: url("./images/home-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.036);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.319);
+backdrop-filter: blur(8.3px);
+-webkit-backdrop-filter: blur(8.3px);
+  padding: 2rem 4rem;
+}
+
+/*------------about---------------*/
+#about{
+  padding-top: 90px;
+}
+
+.about-left-img{
+  max-width: 100%;
+  width: 1100px;
+}
+.about-right-img{
+  max-width: 100%;
+  width: 1100px;
+}
+
+.about-left-card{
+  text-align: left;
+ 
+}
+.about-right-card{
+  text-align: left;
+  
+  
+}
+
+.about-heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #12B0BB;
+  line-height: 10px;
+  border-bottom: 2px solid purple;
+  padding-bottom: 10px;
+  width: 70%;
+}
+.about-left-heading{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.about-description{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+.about-right-description{
+  font-size: 20px;
+}
+
+
+
+/*------about acheivements--------*/
+
+.achievements-sub-container{
+  display: flex;
+}
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achievements-icon{
+  align-self:center ;
+  font-size: 60px;
+  color:darkcyan;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.achievements-heading{
+  color: orangered;
+  font-size: 40px;
+  font-weight: bold;
+}
+.achievements-para{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.hr{
+  width: 2px;
+  height: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: black;
+}
+.about-quote-container{
+  background-image: url('../images/about-bg.jpg');
+  height: 100vh;
+  width: 100%;
+  background-position: fixed;
+  background-size: cover;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-quote-heading{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 10px;
+
+}
+.about-quote-description{
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.about-button{
+  padding: 17px 30px;
+  background-color: orange;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+/*-------------services-----------------*/
+
+
+.services-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 90px;
+  margin-bottom: 40px;
+}
+  .services-cards-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  
+}
+  .services-heading{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 2px solid purple;
+  width: 60%;
+}
+  .services-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 25px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+  .services-card:hover{
+  background:rgba(250, 235, 215, 0.734);
+  transform: translateY(-10px);
+  transition: 1s;
+  color: black;
+}
+  .services-icon{
+  font-size: 30px;
+  color: rgb(11, 84, 84);
+  margin-bottom: 10px;
+  
+}
+.card-heading{
+    font-size: 20px;
+    font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-description{
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 25px;
+  
+}
+/*---------------Projects------------*/
+/*------------Buildings---------*/
+.projects-parent-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 90px;
+  margin-bottom: 40px;
+  }
+.projects-container1{
+  align-self: normal;
+}
+
+  .designs-card{
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 15px;
+  }
+  .projects-heading{
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 40px;
+  border-bottom: 2px solid purple;
+  width: 60%;
+  
+  }
+
+  .services-card-card{
+  background-color: whitesmoke;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  }
+  .designs-card1{
+  background-image: url("./images/building1.jpg");
+  background-size: cover;
+  }
+  .designs-card2{
+  background-image: url("./images/building2.jpg");
+  background-size: cover;
+  }
+  .designs-card3{
+  background-image: url("./images/building1.jpg");
+  background-size: cover;
+  }
+  .designs-card4{
+  background-image: url("./images/building2.jpg");
+  background-size: cover;
+  }
+  .designs-card5{
+  background-image: url("./images/building1.jpg");
+  background-size: cover;
+  }
+  .designs-card6{
+  background-image: url("./images/building2.jpg");
+  background-size: cover;
+  }
+  .project-card-heading{
+  font-size: 25px;
+  font-weight: 600;
+  
+  }
+
+
+  
+  
+  /*-----------interior--------*/
+/*-------------Footer----------------*/
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: #2d2e33;
+  padding: 60px 10%;
+  }
+  
+  ul{
+  list-style: none;
+  }
+  .footer-col-address{
+  width: 25%;
+  }
+  
+  .footer-col{
+  width: 25%;
+  }
+  
+  .footer-col h4{
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #f1bc0d;
+  text-transform: capitalize;
+  }
+  
+  .footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #27c0ac;
+  height: 2px;
+  width: 40px;
+  }
+  
+  ul li:not(:last-child){
+  margin-bottom: 8px;
+  }
+  
+  ul li a{
+  display: block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #bdb6b6;
+  text-decoration: none;
+  transition: 0.4s;
+  }
+  .address{
+  display: block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #bdb6b6;
+  text-decoration: none;
+  transition: 0.4s;
+  
+  }
+  
+  ul li a:hover{
+  color: white;
+  padding-left: 2px;
+  }
+  
+  .links a{
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  color: white;
+  background-color: rgba(40, 130, 214, 0.8);
+  margin: 0 8px 8px 0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 50%;
+  transition: 0.4s;
+  }
+  
+  .links a:hover{
+  color: #4d4f55;
+  background-color: white;
+  }
+  
+
+
+@media only screen and (max-width: 1025px) {
+  html {
+    font-size: 56.25%;
+  }
+  header {
+    padding: 2.2rem 5rem;
+  }
+
+
+
+  /*-----------about----------------*/
+   /*---------about-------------*/
+  
+ 
+  .about-heading{
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+  }
+  .about-left-heading{
+    font-size: 40px;  
+    padding-bottom: 20px;
+  }
+  .about-description{
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+
+  /*---------about acheivments------------*/
+ 
+  .achievements-icon{
+    font-size: 35px;
+    margin-left: 8px;
+    margin-right: 8px;
+  
+  }
+  .achievements-heading{
+    font-size: 30px;
+  }
+  .achievements-para{
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .hr{
+    width: 1px;
+    height: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .about-quote-container{
+    width: 100%;
+    opacity: 0.9;
+  }
+  .about-quote-heading{
+    font-size: 50px;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 10px;
+  
+  }
+  .about-quote-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .about-button{
+    padding: 15px 28px;
+  }
+
+  /*-------------services-----------*/
+  .services-container{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+    .services-cards-container{
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    
+    }
+  /*---------------Projects------------*/
+/*------------Buildings---------*/
+.projects-parent-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+  
+  .designs-card{
+  height: 180px;
+  width: 320px;
+  border-radius: 6px;
+  }
+  .projects-heading{
+  font-size: 30px;
+  padding-left: 40px;
+  width: 60%;
+  
+  }
+  
+  .project-card-heading{
+  font-size: 25px;
+  
+  }
+  ul li a{
+    font-size: 16px;
+  }
+  .address{
+    font-size: 16px;
+  }  
+  /*-----------interior--------*/
+  
+
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  #ham-menu {
+    display: block;
+    color: #ffffff;
+  }
+  #home .home h1{
+    font-size: 40px;
+  }
+  nav a#logo,
+  #ham-menu {
+    font-size: 3.2rem;
+  }
+  nav ul {
+    /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.41);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.3px);
+-webkit-backdrop-filter: blur(8.3px);
+    position: fixed;
+    left: -100vw;
+    top: 73.6px;
+    width: 100vw;
+    height: calc(100vh - 73.6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+    gap: 0;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.41);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.3px);
+-webkit-backdrop-filter: blur(8.3px);
+    padding: 2rem 4rem;
+  }
+
+
+
+
+  /*-----------------about---------------*/
+  /*----------about------------*/
+  
+  .about-heading{
+    font-size: 20px;
+    width: 70%;
+    padding-bottom: 20px;
+  }
+  .about-left-heading{
+    font-size: 25px;  
+  }
+  .about-description{
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  .about-right-description{
+    font-size: 16px;
+  }
+
+  /*----------about acheivments--------*/
+  
+
+ 
+  .achievements-icon{
+    font-size: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+  
+  }
+  .achievements-heading{
+    font-size: 25px;
+  }
+  .achievements-para{
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .hr{
+    width: 1px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .about-quote-container{
+    width: 100%;
+    opacity: 0.9;
+  }
+  .about-quote-heading{
+    font-size: 40px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 10px;
+  
+  }
+  .about-quote-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .about-button{
+    padding: 15px 25px;
+  }
+
+  /*---------------services------------------*/
+.services-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+  .services-cards-container{
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  
+  }
+
+/*---------------Projects------------*/
+/*------------Buildings---------*/
+.projects-parent-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+ 
+  .designs-card{
+  height: 200px;
+  width: 250px;
+  border-radius: 6px;
+  }
+  .projects-heading{
+  font-size: 30px;
+  padding-left: 20px;
+  width: auto;
+  
+  }
+  
+  .project-card-heading{
+  font-size: 25px;
+  
+  
+  }
+/*------------Footer------------*/
+  .footer-col{
+  width: 50%;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+  
+  .footer-col h4::before{
+  all: unset;
+  }
+  
+  ul li a{
+    font-size: 16px;
+    }
+    .address{
+    font-size: 16px;
+    }
+
+
+}
+@media only screen and (max-width: 426px) {
+  html {
+    font-size: 46.87%;
+  }
+  header {
+    padding: 2rem 3rem;
+  }
+  nav ul {
+    top: 65.18px;
+    height: calc(100vh - 65.18px);
+  }
+
+
+  /*-------------home--------------*/
+  #home {
+    background-image: url("../images/mobile-bg.jpg");
+    height: 120vh !important;
+  }
+  
+  #home .icon i {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  
+  #home .icon label {
+    display: none;
+  }
+  
+  #home .home h3 {
+    font-size: 15px;
+  }
+  
+  #home .home h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+  
+  #home .home .item .item_box {
+    padding: 8px;
+  }
+  
+  #home .home .item p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  #home .home .item {
+    margin-top: 10%;
+  }
+  nav ul a {
+    color: black;
+    font-weight: 600;
+  }
+
+
+  /*-----------about-------------*/
+   /*----------about------------*/
+  
+  .about-heading{
+    width: auto;
+  }
+  .about-left-card{
+    text-align: center;
+  }
+  .about-right-card{
+    text-align: center;
+  }
+  .about-description{
+    text-align: left;
+  }
+  .about-right-description{
+    text-align: left;
+    font-size: 16px;
+  }
+
+ 
+  .about-heading{
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .about-left-heading{
+    font-size: 20px;
+  
+  }
+  .about-description{
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+
+
+  /*-----------about acheivments-------------*/
+  
+  .about-quote-container{
+    background-image: url('../images/about-mobile-bg.jpg');
+    height: 100vh;
+  }
+  .achievements{
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+  }
+  .achievements-icon{
+    font-size: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+  
+  }
+  .achievements-heading{
+    font-size: 15px;
+  }
+  .achievements-para{
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  .hr{
+    width: 1px;
+    height: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .about-quote-container{
+    width: 100%;
+    opacity: 0.9;
+  }
+  .about-quote-heading{
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 10px;
+  
+  }
+  .about-quote-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .about-button{
+    padding: 10px  20px;
+    font-size: 15px;
+  }
+  /*---------------services------------------*/
+.services-flow{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.services-container{
+padding-left: 40px;
+padding-right: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.services-cards-container{
+grid-template-columns: repeat(1,1fr);
+grid-column-gap: 40px;
+grid-row-gap: 40px;
+
+}
+.services-heading{
+width: auto;
+}
+.services-icon{
+  font-size: 25px;
+  color: rgb(11, 84, 84);
+  margin-bottom: 10px;
+  
+  }
+  .card-heading{
+    font-size: 18px;
+    font-weight: 600;
+  margin-bottom: 10px;
+  }
+  .card-description{
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  
+  }
+  .services-card{
+    padding: 18px;
+  }
+  /*---------------Projects------------*/
+/*------------Buildings---------*/
+.projects-parent-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .designs-card{
+  width: 250px;
+  border-radius: 6px;
+  padding: 0px;
+
+  }
+  .projects-heading{
+  font-size: 30px;
+ 
+  width: auto;
+  
+  }
+  
+  .project-card-heading{
+  font-size: 20px;
+  }
+  .project-card-heading{
+    font-size: 17px;
+    font-weight: 600;
+    
+    }
+  .project-card-description{
+      font-size: 10px;
+    }
+  ul li a{
+    font-size: 16px;
+    }
+  .address{
+    font-size: 16px;
+    }
+  
+  
+  /*-----------interior--------*/
+
+/*------------Footer-------------*/
+.footer-col{
+    width: 100%;
+}
+.address{
+  text-align: center;
+  padding-left: 20px;
+}
+
+
+}
