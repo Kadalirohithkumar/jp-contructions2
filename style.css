@@ -262,7 +262,7 @@ backdrop-filter: blur(8.3px);
   color: black;
 }
 .about-quote-container{
-  background-image: url('../images/about-bg.jpg');
+  background-image: url('./images/about-bg.jpg');
   height: 100vh;
   width: 100%;
   background-position: fixed;
@@ -827,7 +827,7 @@ backdrop-filter: blur(8.3px);
 
   /*-------------home--------------*/
   #home {
-    background-image: url("../images/mobile-bg.jpg");
+    background-image: url("./images/mobile-bg.jpg");
     height: 120vh !important;
   }
   
@@ -906,7 +906,7 @@ backdrop-filter: blur(8.3px);
   /*-----------about acheivments-------------*/
   
   .about-quote-container{
-    background-image: url('../images/about-mobile-bg.jpg');
+    background-image: url('./images/about-mobile-bg.jpg');
     height: 100vh;
   }
   .achievements{
